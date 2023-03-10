@@ -1008,7 +1008,7 @@ class Gardener:
     def __init__(self, name, plant):
         self.name = name
         self._plant = plant
-        
+
     def work(self):
         print('Gardener is working...')
         self._plant.grow_all()
